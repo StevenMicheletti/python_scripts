@@ -1,4 +1,4 @@
-# Python scripts for memory-efficient genomic analysis
+# Python2 scripts for memory-efficient genomic analysis
 
 Each script comes with its own help description
 
