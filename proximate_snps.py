@@ -26,7 +26,7 @@ print(startime)
 f1 = open(args.output, "w")
 chunksize = 500000
 load=1
-for chunk in pd.read_csv(args.input, sep=' ', chunksize=chunksize, skipinitialspace=args.skip, usecols=[0,1]):
+for chunk in pd.read_csv(args.input, delim_whitespace=True, chunksize=chunksize, skipinitialspace=args.skip, usecols=[0,1]):
     header1=np.asarray(chunk.iloc[:,0])
     counter=np.asarray(chunk.iloc[:,1])
     print("Block"),
