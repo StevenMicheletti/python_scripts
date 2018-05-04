@@ -97,7 +97,7 @@ with open(args.input) as snp_list:
             amplicon=("NA")
             string_R=("NA")
             warnings=("[BAD_AMPLICON]")
-        hout=(chr + " " + seq + " " + Fp + " " + RpRC +" " + string_R + " " + amplicon + " " + str(seqL) + " " + str(alen) + " " + str(xct) + " " + str(pct) + " " + str(dct) + " " + warnings)
+        hout=(chr + " " + seq + " " + Fp + " " + Rp +" " + string_R + " " + amplicon + " " + str(seqL) + " " + str(alen) + " " + str(xct) + " " + str(pct) + " " + str(dct) + " " + warnings)
         f1.write("%s\n" % hout)
         iter=iter+1
 f1.flush()
