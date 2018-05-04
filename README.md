@@ -30,5 +30,7 @@ Useful for primer design.
 ### Arguments
 -i input: Input FASTA file  
 -o output file: Output table with sequences  
--p positions: 
+-p positions file: Table with [CHR POS] to pull sequences around  
+-r sequence range: Integer; number of bases around SNP to grab  
+-f output format: Output in FASTA format or CSV (two-column)  
 
