@@ -18,9 +18,9 @@ Useful for primer design or masking known problematics regions of a assembly
 NOTE: makes replacements within FASTA file - it is recommended to backup the FASTA file first. 
 
 ### Arguments
--i input: Input FASTA file
--p positions file: Table with [CHR POS] to mask
--a allele mask: Letter to mask bases with 
+-i input: Input FASTA file  
+-p positions file: Table with [CHR POS] to mask  
+-a allele mask: Letter to mask bases with   
 
 ## grab_fasta.py
 Pull sequences from a FASTA file around user-specificed SNP positions.
@@ -28,7 +28,7 @@ Pull sequences from a FASTA file around user-specificed SNP positions.
 Useful for primer design.
 
 ### Arguments
--i input: Input FASTA file
--o output file: Output table with sequences
+-i input: Input FASTA file  
+-o output file: Output table with sequences  
 -p positions: 
 
